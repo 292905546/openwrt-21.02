@@ -1,0 +1,16 @@
+云编译进SSH方法复制浏览器打开下面网址 
+https://p3terx.com/archives/build-openwrt-with-github-actions.html
+
+SSH进入后请输下面命令回车
+cd openwrt && make menuconfig
+
+选择编译好自己机型所需插件输入下面回车
+make defconfig;./scripts/diffconfig.sh > seed.config;
+
+等待出现代码复制下面命令回车
+cat seed.config
+
+等待出现复制config配置文件，方法自行研究看不懂我也没办法
+
+进SSH不要拉取sed -i '$a src-git helloworld https://github.com/fw876/helloworld' feeds.conf.default源码不然必报错！
+
