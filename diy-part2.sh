@@ -16,5 +16,3 @@ mkdir -p package/luci-app-diskman && \
 wget https://raw.githubusercontent.com/lisaac/luci-app-diskman/master/applications/luci-app-diskman/Makefile -O package/luci-app-diskman/Makefile
 mkdir -p package/parted && \
 wget https://raw.githubusercontent.com/lisaac/luci-app-diskman/master/Parted.Makefile -O package/parted/Makefile
-mkdir -p package/luci-app-openclash && \
-wget https://github.com/vernesong/OpenClash/tree/master/luci-app-openclash
