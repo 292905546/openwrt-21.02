@@ -17,4 +17,4 @@ wget https://raw.githubusercontent.com/lisaac/luci-app-diskman/master/applicatio
 mkdir -p package/parted && \
 wget https://raw.githubusercontent.com/lisaac/luci-app-diskman/master/Parted.Makefile -O package/parted/Makefile
 mkdir -p package/luci-app-openclash && \
-wget https://raw.githubusercontent.com/vernesong/OpenClash/master/luci-app-openclash/Makefile -O package/parted/Makefile
+wget https://raw.githubusercontent.com/vernesong/OpenClash/master/luci-app-openclash/Makefile -O package/luci-app-openclash/Makefile
