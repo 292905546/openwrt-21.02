@@ -19,4 +19,5 @@
 #mkdir -p package/luci-app-openclash && \
 #wget https://raw.githubusercontent.com/vernesong/OpenClash/master/luci-app-openclash/Makefile -O package/luci-app-openclash/Makefile
 cd package
-git clone https://github.com/lisaac/luci-app-diskman.git
+#git clone https://github.com/lisaac/luci-app-diskman.git
+git clone https://github.com/vernesong/OpenClash.git
