@@ -18,5 +18,5 @@
 #wget https://raw.githubusercontent.com/lisaac/luci-app-diskman/master/Parted.Makefile -O package/parted/Makefile
 #mkdir -p package/luci-app-openclash && \
 #wget https://raw.githubusercontent.com/vernesong/OpenClash/master/luci-app-openclash/Makefile -O package/luci-app-openclash/Makefile
-cd openwrt/package
+cd package
 git clone https://github.com/lisaac/luci-app-diskman.git
