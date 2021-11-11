@@ -21,3 +21,4 @@
 cd package
 #git clone https://github.com/lisaac/luci-app-diskman.git
 git clone https://github.com/vernesong/OpenClash.git
+git clone https://github.com/lisaac/luci-app-diskman.git
