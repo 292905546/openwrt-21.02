@@ -20,3 +20,4 @@
 #echo 'src-git small https://github.com/kenzok8/small' >>feeds.conf.default
 echo 'src-git diskman https://github.com/lisaac/luci-app-diskman' >>feeds.conf.default
 #echo 'src-git OpenClash https://github.com/vernesong/OpenClash' >>feeds.conf.default
+echo 'src-git netspeedtest https://github.com/sirpdboy/netspeedtest' >>feeds.conf.default
